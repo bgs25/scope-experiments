@@ -37,6 +37,10 @@ This experiment used data available on [Kaggle](https://www.kaggle.com/c/prudent
 
 This exploratory experiment used data compiled at the [COVID-19 Forecast Hub](https://github.com/reichlab/covid19-forecast-hub). The file process_covidhub.R contains information for how to extract and process data from this source into a form that can then be used in the experiment given in the paper. We also include the processed data that was used for the experiment. The file section_6_5_tests.R performs the experiments and includes script for generating the plot used in the paper.
 
-# Section S.1.2
+## Section S.1.2
 
 These can be done on a single machine and are fast to run.
+
+## casanova code
+
+An original implementation of [CAS-ANOVA](https://doi.org/10.1111/j.1541-0420.2008.01061.x) was written that made use of the formulation of the optimisation objective as a quadratic program. While giving the correct solution, this is slow and memory intensive (as is inevitable when applying any all-pairs penalty approach in a moderate to high-dimensional setting), so was not used for some of the experiments. Contained in this folder is the code for implementing the problem, and also for then computing a solution path (for _increasing_ parameter, as here we are using the constrained rather than penalised formulation of the objective) for continuous response and logisitc models.
