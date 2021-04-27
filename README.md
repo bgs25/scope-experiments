@@ -1,6 +1,6 @@
 # SCOPE experiments
 
-This folder contains the code and scripts that were used in the experimental sections of [Modelling high-dimensional categorical data using nonconvex fusion penalties](https://arxiv.org/abs/2002.12606) so that the results can be reproduced. The accompanying R package [CatReg](https://cran.r-project.org/package=CatReg) implements the methodology used in the paper.
+This folder contains the scripts that were used in the experimental sections of [Modelling high-dimensional categorical data using nonconvex fusion penalties](https://arxiv.org/abs/2002.12606). The accompanying R package [CatReg](https://cran.r-project.org/package=CatReg) implements the methodology used in the paper.
 
 For each experiment, we have created a folder which contains an R script, data required to run the test, and results data. 
 
