@@ -4,9 +4,7 @@ This folder contains the code and scripts that were used in the experimental sec
 
 For each experiment, we have created a folder which contains an R script, data required to run the test, and results data. 
 
-Originally these experiments would be run across multiple computers, with each running the computation saving at checkpoints. After enough experiments are run, there would be a results-gathering process for (in some instances deriving, and) compiling the results together. Where nontrivial, such files are seperate scripts and end in compile_results. Due to this organisation, in the results files there are sometimes more results than were used in the paper (e.g. for Section 6.1.1 there are 163 rows in the results matrices, of which the first 150 were used).
-
-The reason for this is that the experiments are very slow to run in some cases. In particular, the CasANOVA code is slow, as is the logistic version of SCOPE (in CatReg the logistic version is 'experimental'). Some of the computation times can be found in the appendix of the paper.
+Originally these experiments would be run across multiple computers, with each running the computation saving at checkpoints. After enough experiments are run, there would be a results-gathering process for (in some instances deriving, and) compiling the results together. Where nontrivial, such files are seperate scripts and end in compile_results. The reason for this is that the experiments are very slow to run in some cases. In particular, the CasANOVA code is slow, as is the logistic version of SCOPE (in CatReg the logistic version is 'experimental'). Some of the computation times can be found in the appendix of the paper.
 
 The scripts have been lightly abridged for:
 * Readability
