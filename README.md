@@ -39,7 +39,7 @@ This exploratory experiment used data compiled at the [COVID-19 Forecast Hub](ht
 
 ## Section S.1.2
 
-These can be done on a single machine and are fast to run.
+These are for the computation time experiments included in Section S.1.3 -- after a reordering of the supplementary material. These can be done on a single machine and are fast to run.
 
 ## casanova code
 
